@@ -1,5 +1,10 @@
 {
   "mcpServers": {
+    "filesystem2": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/se2rver-filesystem"],
+      "env": { "BASE_DIR": "/workspace" }
+    },
     "filesystem": {
       "command": "npx",
       "args": ["-y", "@modelcontextprotocol/server-filesystem"],
